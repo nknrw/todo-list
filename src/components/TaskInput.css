@@ -1,0 +1,36 @@
+.new-task {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.submit-button {
+  font-weight: 500;
+  position: absolute;
+  right: 10px;
+  align-self: center;
+  width: fit-content;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 0;
+  cursor: pointer;
+  color: #000;
+  border: none;
+  background-color: #fff;
+}
+
+.task-input {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+  padding: 10px 50px 10px 10px;
+  border: 1px solid #000;
+  outline: none;
+}
+
+.task-input::placeholder {
+  color: #ccc;
+}

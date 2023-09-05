@@ -1,0 +1,25 @@
+.tab-button {
+  font-weight: 500;
+  width: fit-content;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 0;
+  cursor: pointer;
+  color: #000;
+  border: none;
+  background-color: #fff;
+}
+
+.tab-button:hover {
+  color: #808080;
+}
+
+.inactive {
+  color: #ccc;
+}
+
+.active {
+  /*background-color: #808080;*/
+  color: #000;
+  border-bottom: 1px solid #000;
+}
